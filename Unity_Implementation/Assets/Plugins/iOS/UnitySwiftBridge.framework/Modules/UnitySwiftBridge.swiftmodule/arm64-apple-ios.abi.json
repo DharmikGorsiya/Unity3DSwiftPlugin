@@ -1,0 +1,3304 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitySwiftBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UnitySwiftBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "Metal",
+        "printedName": "Metal",
+        "declKind": "Import",
+        "moduleName": "UnitySwiftBridge"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetInfo",
+        "printedName": "GetInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetInfo",
+                "printedName": "UnitySwiftBridge.GetInfo",
+                "usr": "s:16UnitySwiftBridge7GetInfoC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge7GetInfoC8instanceACvpZ",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC8instanceACvpZ",
+            "moduleName": "UnitySwiftBridge",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetInfo",
+                    "printedName": "UnitySwiftBridge.GetInfo",
+                    "usr": "s:16UnitySwiftBridge7GetInfoC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge7GetInfoC8instanceACvgZ",
+                "mangledName": "$s16UnitySwiftBridge7GetInfoC8instanceACvgZ",
+                "moduleName": "UnitySwiftBridge",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "machHost",
+            "printedName": "machHost",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge7GetInfoC8machHosts6UInt32Vvp",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC8machHosts6UInt32Vvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge7GetInfoC8machHosts6UInt32Vvg",
+                "mangledName": "$s16UnitySwiftBridge7GetInfoC8machHosts6UInt32Vvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loadPrevious",
+            "printedName": "loadPrevious",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "host_cpu_load_info",
+                "printedName": "Darwin.host_cpu_load_info",
+                "usr": "c:@S@host_cpu_load_info"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge7GetInfoC12loadPreviousSo09host_cpu_F5_infoVvp",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC12loadPreviousSo09host_cpu_F5_infoVvp",
+            "moduleName": "UnitySwiftBridge",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "host_cpu_load_info",
+                    "printedName": "Darwin.host_cpu_load_info",
+                    "usr": "c:@S@host_cpu_load_info"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge7GetInfoC12loadPreviousSo09host_cpu_F5_infoVvg",
+                "mangledName": "$s16UnitySwiftBridge7GetInfoC12loadPreviousSo09host_cpu_F5_infoVvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "host_cpu_load_info",
+                    "printedName": "Darwin.host_cpu_load_info",
+                    "usr": "c:@S@host_cpu_load_info"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge7GetInfoC12loadPreviousSo09host_cpu_F5_infoVvs",
+                "mangledName": "$s16UnitySwiftBridge7GetInfoC12loadPreviousSo09host_cpu_F5_infoVvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge7GetInfoC12loadPreviousSo09host_cpu_F5_infoVvM",
+                "mangledName": "$s16UnitySwiftBridge7GetInfoC12loadPreviousSo09host_cpu_F5_infoVvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mtlDevice",
+            "printedName": "mtlDevice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Metal.MTLDevice)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLDevice",
+                    "printedName": "any Metal.MTLDevice",
+                    "usr": "c:objc(pl)MTLDevice"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge7GetInfoC9mtlDeviceSo9MTLDevice_pSgvp",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC9mtlDeviceSo9MTLDevice_pSgvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Metal.MTLDevice)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLDevice",
+                        "printedName": "any Metal.MTLDevice",
+                        "usr": "c:objc(pl)MTLDevice"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge7GetInfoC9mtlDeviceSo9MTLDevice_pSgvg",
+                "mangledName": "$s16UnitySwiftBridge7GetInfoC9mtlDeviceSo9MTLDevice_pSgvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PAGE_SIZE",
+            "printedName": "PAGE_SIZE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge7GetInfoC9PAGE_SIZESuvp",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC9PAGE_SIZESuvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge7GetInfoC9PAGE_SIZESuvg",
+                "mangledName": "$s16UnitySwiftBridge7GetInfoC9PAGE_SIZESuvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timer",
+            "printedName": "timer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Timer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Timer",
+                    "printedName": "Foundation.Timer",
+                    "usr": "c:objc(cs)NSTimer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge7GetInfoC5timerSo7NSTimerCSgvp",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC5timerSo7NSTimerCSgvp",
+            "moduleName": "UnitySwiftBridge",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Timer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Timer",
+                        "printedName": "Foundation.Timer",
+                        "usr": "c:objc(cs)NSTimer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge7GetInfoC5timerSo7NSTimerCSgvg",
+                "mangledName": "$s16UnitySwiftBridge7GetInfoC5timerSo7NSTimerCSgvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Timer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Timer",
+                        "printedName": "Foundation.Timer",
+                        "usr": "c:objc(cs)NSTimer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge7GetInfoC5timerSo7NSTimerCSgvs",
+                "mangledName": "$s16UnitySwiftBridge7GetInfoC5timerSo7NSTimerCSgvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge7GetInfoC5timerSo7NSTimerCSgvM",
+                "mangledName": "$s16UnitySwiftBridge7GetInfoC5timerSo7NSTimerCSgvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trackedDataListX",
+            "printedName": "trackedDataListX",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UnitySwiftBridge.TrackedData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackedData",
+                    "printedName": "UnitySwiftBridge.TrackedData",
+                    "usr": "s:16UnitySwiftBridge11TrackedDataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge7GetInfoC16trackedDataListXSayAA07TrackedG0VGvp",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC16trackedDataListXSayAA07TrackedG0VGvp",
+            "moduleName": "UnitySwiftBridge",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UnitySwiftBridge.TrackedData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackedData",
+                        "printedName": "UnitySwiftBridge.TrackedData",
+                        "usr": "s:16UnitySwiftBridge11TrackedDataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge7GetInfoC16trackedDataListXSayAA07TrackedG0VGvg",
+                "mangledName": "$s16UnitySwiftBridge7GetInfoC16trackedDataListXSayAA07TrackedG0VGvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UnitySwiftBridge.TrackedData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackedData",
+                        "printedName": "UnitySwiftBridge.TrackedData",
+                        "usr": "s:16UnitySwiftBridge11TrackedDataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge7GetInfoC16trackedDataListXSayAA07TrackedG0VGvs",
+                "mangledName": "$s16UnitySwiftBridge7GetInfoC16trackedDataListXSayAA07TrackedG0VGvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge7GetInfoC16trackedDataListXSayAA07TrackedG0VGvM",
+                "mangledName": "$s16UnitySwiftBridge7GetInfoC16trackedDataListXSayAA07TrackedG0VGvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startTracking",
+            "printedName": "startTracking()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge7GetInfoC13startTrackingyyF",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC13startTrackingyyF",
+            "moduleName": "UnitySwiftBridge",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doTracking",
+            "printedName": "doTracking()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge7GetInfoC10doTrackingyyF",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC10doTrackingyyF",
+            "moduleName": "UnitySwiftBridge",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopTracking",
+            "printedName": "stopTracking()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge7GetInfoC12stopTrackingSSyF",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC12stopTrackingSSyF",
+            "moduleName": "UnitySwiftBridge",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertTrackedDataListToJsonString",
+            "printedName": "convertTrackedDataListToJsonString(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UnitySwiftBridge.TrackedData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackedData",
+                    "printedName": "UnitySwiftBridge.TrackedData",
+                    "usr": "s:16UnitySwiftBridge11TrackedDataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge7GetInfoC34convertTrackedDataListToJsonStringySSSgSayAA0gH0VGF",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC34convertTrackedDataListToJsonStringySSSgSayAA0gH0VGF",
+            "moduleName": "UnitySwiftBridge",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hostCPULoadInfo",
+            "printedName": "hostCPULoadInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "host_cpu_load_info",
+                "printedName": "Darwin.host_cpu_load_info",
+                "usr": "c:@S@host_cpu_load_info"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge7GetInfoC011hostCPULoadE0So0F14_cpu_load_infoVyF",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC011hostCPULoadE0So0F14_cpu_load_infoVyF",
+            "moduleName": "UnitySwiftBridge",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "VMStatistics64",
+            "printedName": "VMStatistics64()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "vm_statistics64",
+                "printedName": "Darwin.vm_statistics64",
+                "usr": "c:@S@vm_statistics64"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge7GetInfoC14VMStatistics64So15vm_statistics64VyF",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC14VMStatistics64So15vm_statistics64VyF",
+            "moduleName": "UnitySwiftBridge",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addTrackedDataX",
+            "printedName": "addTrackedDataX(to:cpuUsage:gpuUsage:ramUsage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UnitySwiftBridge.TrackedData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackedData",
+                    "printedName": "UnitySwiftBridge.TrackedData",
+                    "usr": "s:16UnitySwiftBridge11TrackedDataV"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPUUsage",
+                "printedName": "UnitySwiftBridge.CPUUsage",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GPUUsage",
+                "printedName": "UnitySwiftBridge.GPUUsage",
+                "usr": "s:16UnitySwiftBridge8GPUUsageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RAMUsage",
+                "printedName": "UnitySwiftBridge.RAMUsage",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge7GetInfoC15addTrackedDataX2to8cpuUsage03gpuK003ramK0ySayAA0gH0VGz_AA8CPUUsageVAA8GPUUsageVAA8RAMUsageVtF",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC15addTrackedDataX2to8cpuUsage03gpuK003ramK0ySayAA0gH0VGz_AA8CPUUsageVAA8GPUUsageVAA8RAMUsageVtF",
+            "moduleName": "UnitySwiftBridge",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateCurrentTimeStamp",
+            "printedName": "generateCurrentTimeStamp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge7GetInfoC24generateCurrentTimeStampSSyF",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoC24generateCurrentTimeStampSSyF",
+            "moduleName": "UnitySwiftBridge",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetInfo",
+                "printedName": "UnitySwiftBridge.GetInfo",
+                "usr": "s:16UnitySwiftBridge7GetInfoC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UnitySwiftBridge7GetInfoCACycfc",
+            "mangledName": "$s16UnitySwiftBridge7GetInfoCACycfc",
+            "moduleName": "UnitySwiftBridge",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16UnitySwiftBridge7GetInfoC",
+        "mangledName": "$s16UnitySwiftBridge7GetInfoC",
+        "moduleName": "UnitySwiftBridge",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CPUUsage",
+        "printedName": "CPUUsage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "system",
+            "printedName": "system",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge8CPUUsageV6systemSdvp",
+            "mangledName": "$s16UnitySwiftBridge8CPUUsageV6systemSdvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV6systemSdvg",
+                "mangledName": "$s16UnitySwiftBridge8CPUUsageV6systemSdvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV6systemSdvs",
+                "mangledName": "$s16UnitySwiftBridge8CPUUsageV6systemSdvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV6systemSdvM",
+                "mangledName": "$s16UnitySwiftBridge8CPUUsageV6systemSdvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "user",
+            "printedName": "user",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge8CPUUsageV4userSdvp",
+            "mangledName": "$s16UnitySwiftBridge8CPUUsageV4userSdvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV4userSdvg",
+                "mangledName": "$s16UnitySwiftBridge8CPUUsageV4userSdvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV4userSdvs",
+                "mangledName": "$s16UnitySwiftBridge8CPUUsageV4userSdvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV4userSdvM",
+                "mangledName": "$s16UnitySwiftBridge8CPUUsageV4userSdvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "idle",
+            "printedName": "idle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge8CPUUsageV4idleSdvp",
+            "mangledName": "$s16UnitySwiftBridge8CPUUsageV4idleSdvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV4idleSdvg",
+                "mangledName": "$s16UnitySwiftBridge8CPUUsageV4idleSdvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV4idleSdvs",
+                "mangledName": "$s16UnitySwiftBridge8CPUUsageV4idleSdvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV4idleSdvM",
+                "mangledName": "$s16UnitySwiftBridge8CPUUsageV4idleSdvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nice",
+            "printedName": "nice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge8CPUUsageV4niceSdvp",
+            "mangledName": "$s16UnitySwiftBridge8CPUUsageV4niceSdvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV4niceSdvg",
+                "mangledName": "$s16UnitySwiftBridge8CPUUsageV4niceSdvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV4niceSdvs",
+                "mangledName": "$s16UnitySwiftBridge8CPUUsageV4niceSdvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV4niceSdvM",
+                "mangledName": "$s16UnitySwiftBridge8CPUUsageV4niceSdvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(system:user:idle:nice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPUUsage",
+                "printedName": "UnitySwiftBridge.CPUUsage",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UnitySwiftBridge8CPUUsageV6system4user4idle4niceACSd_S3dtcfc",
+            "mangledName": "$s16UnitySwiftBridge8CPUUsageV6system4user4idle4niceACSd_S3dtcfc",
+            "moduleName": "UnitySwiftBridge",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPUUsage",
+                "printedName": "UnitySwiftBridge.CPUUsage",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UnitySwiftBridge8CPUUsageV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16UnitySwiftBridge8CPUUsageV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "UnitySwiftBridge",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge8CPUUsageV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16UnitySwiftBridge8CPUUsageV6encode2toys7Encoder_p_tKF",
+            "moduleName": "UnitySwiftBridge",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16UnitySwiftBridge8CPUUsageV",
+        "mangledName": "$s16UnitySwiftBridge8CPUUsageV",
+        "moduleName": "UnitySwiftBridge",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GPUUsage",
+        "printedName": "GPUUsage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "max",
+            "printedName": "max",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge8GPUUsageV3maxSdvp",
+            "mangledName": "$s16UnitySwiftBridge8GPUUsageV3maxSdvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8GPUUsageV3maxSdvg",
+                "mangledName": "$s16UnitySwiftBridge8GPUUsageV3maxSdvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8GPUUsageV3maxSdvs",
+                "mangledName": "$s16UnitySwiftBridge8GPUUsageV3maxSdvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8GPUUsageV3maxSdvM",
+                "mangledName": "$s16UnitySwiftBridge8GPUUsageV3maxSdvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allocated",
+            "printedName": "allocated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge8GPUUsageV9allocatedSdvp",
+            "mangledName": "$s16UnitySwiftBridge8GPUUsageV9allocatedSdvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8GPUUsageV9allocatedSdvg",
+                "mangledName": "$s16UnitySwiftBridge8GPUUsageV9allocatedSdvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8GPUUsageV9allocatedSdvs",
+                "mangledName": "$s16UnitySwiftBridge8GPUUsageV9allocatedSdvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8GPUUsageV9allocatedSdvM",
+                "mangledName": "$s16UnitySwiftBridge8GPUUsageV9allocatedSdvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(max:allocated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GPUUsage",
+                "printedName": "UnitySwiftBridge.GPUUsage",
+                "usr": "s:16UnitySwiftBridge8GPUUsageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UnitySwiftBridge8GPUUsageV3max9allocatedACSd_Sdtcfc",
+            "mangledName": "$s16UnitySwiftBridge8GPUUsageV3max9allocatedACSd_Sdtcfc",
+            "moduleName": "UnitySwiftBridge",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GPUUsage",
+                "printedName": "UnitySwiftBridge.GPUUsage",
+                "usr": "s:16UnitySwiftBridge8GPUUsageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UnitySwiftBridge8GPUUsageV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16UnitySwiftBridge8GPUUsageV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "UnitySwiftBridge",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge8GPUUsageV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16UnitySwiftBridge8GPUUsageV6encode2toys7Encoder_p_tKF",
+            "moduleName": "UnitySwiftBridge",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16UnitySwiftBridge8GPUUsageV",
+        "mangledName": "$s16UnitySwiftBridge8GPUUsageV",
+        "moduleName": "UnitySwiftBridge",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RAMUsage",
+        "printedName": "RAMUsage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "free",
+            "printedName": "free",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge8RAMUsageV4freeSdvp",
+            "mangledName": "$s16UnitySwiftBridge8RAMUsageV4freeSdvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV4freeSdvg",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV4freeSdvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV4freeSdvs",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV4freeSdvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV4freeSdvM",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV4freeSdvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "active",
+            "printedName": "active",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge8RAMUsageV6activeSdvp",
+            "mangledName": "$s16UnitySwiftBridge8RAMUsageV6activeSdvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV6activeSdvg",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV6activeSdvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV6activeSdvs",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV6activeSdvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV6activeSdvM",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV6activeSdvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inactive",
+            "printedName": "inactive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge8RAMUsageV8inactiveSdvp",
+            "mangledName": "$s16UnitySwiftBridge8RAMUsageV8inactiveSdvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV8inactiveSdvg",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV8inactiveSdvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV8inactiveSdvs",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV8inactiveSdvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV8inactiveSdvM",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV8inactiveSdvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wired",
+            "printedName": "wired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge8RAMUsageV5wiredSdvp",
+            "mangledName": "$s16UnitySwiftBridge8RAMUsageV5wiredSdvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV5wiredSdvg",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV5wiredSdvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV5wiredSdvs",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV5wiredSdvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV5wiredSdvM",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV5wiredSdvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "compressed",
+            "printedName": "compressed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge8RAMUsageV10compressedSdvp",
+            "mangledName": "$s16UnitySwiftBridge8RAMUsageV10compressedSdvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV10compressedSdvg",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV10compressedSdvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV10compressedSdvs",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV10compressedSdvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV10compressedSdvM",
+                "mangledName": "$s16UnitySwiftBridge8RAMUsageV10compressedSdvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(free:active:inactive:wired:compressed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RAMUsage",
+                "printedName": "UnitySwiftBridge.RAMUsage",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UnitySwiftBridge8RAMUsageV4free6active8inactive5wired10compressedACSd_S4dtcfc",
+            "mangledName": "$s16UnitySwiftBridge8RAMUsageV4free6active8inactive5wired10compressedACSd_S4dtcfc",
+            "moduleName": "UnitySwiftBridge",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RAMUsage",
+                "printedName": "UnitySwiftBridge.RAMUsage",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UnitySwiftBridge8RAMUsageV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16UnitySwiftBridge8RAMUsageV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "UnitySwiftBridge",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge8RAMUsageV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16UnitySwiftBridge8RAMUsageV6encode2toys7Encoder_p_tKF",
+            "moduleName": "UnitySwiftBridge",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16UnitySwiftBridge8RAMUsageV",
+        "mangledName": "$s16UnitySwiftBridge8RAMUsageV",
+        "moduleName": "UnitySwiftBridge",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrackedData",
+        "printedName": "TrackedData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cpuUsage",
+            "printedName": "cpuUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CPUUsage",
+                "printedName": "UnitySwiftBridge.CPUUsage",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge11TrackedDataV8cpuUsageAA8CPUUsageVvp",
+            "mangledName": "$s16UnitySwiftBridge11TrackedDataV8cpuUsageAA8CPUUsageVvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPUUsage",
+                    "printedName": "UnitySwiftBridge.CPUUsage",
+                    "usr": "s:16UnitySwiftBridge8CPUUsageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV8cpuUsageAA8CPUUsageVvg",
+                "mangledName": "$s16UnitySwiftBridge11TrackedDataV8cpuUsageAA8CPUUsageVvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CPUUsage",
+                    "printedName": "UnitySwiftBridge.CPUUsage",
+                    "usr": "s:16UnitySwiftBridge8CPUUsageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV8cpuUsageAA8CPUUsageVvs",
+                "mangledName": "$s16UnitySwiftBridge11TrackedDataV8cpuUsageAA8CPUUsageVvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV8cpuUsageAA8CPUUsageVvM",
+                "mangledName": "$s16UnitySwiftBridge11TrackedDataV8cpuUsageAA8CPUUsageVvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gpuUsage",
+            "printedName": "gpuUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GPUUsage",
+                "printedName": "UnitySwiftBridge.GPUUsage",
+                "usr": "s:16UnitySwiftBridge8GPUUsageV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge11TrackedDataV8gpuUsageAA8GPUUsageVvp",
+            "mangledName": "$s16UnitySwiftBridge11TrackedDataV8gpuUsageAA8GPUUsageVvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GPUUsage",
+                    "printedName": "UnitySwiftBridge.GPUUsage",
+                    "usr": "s:16UnitySwiftBridge8GPUUsageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV8gpuUsageAA8GPUUsageVvg",
+                "mangledName": "$s16UnitySwiftBridge11TrackedDataV8gpuUsageAA8GPUUsageVvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GPUUsage",
+                    "printedName": "UnitySwiftBridge.GPUUsage",
+                    "usr": "s:16UnitySwiftBridge8GPUUsageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV8gpuUsageAA8GPUUsageVvs",
+                "mangledName": "$s16UnitySwiftBridge11TrackedDataV8gpuUsageAA8GPUUsageVvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV8gpuUsageAA8GPUUsageVvM",
+                "mangledName": "$s16UnitySwiftBridge11TrackedDataV8gpuUsageAA8GPUUsageVvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ramUsage",
+            "printedName": "ramUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RAMUsage",
+                "printedName": "UnitySwiftBridge.RAMUsage",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge11TrackedDataV8ramUsageAA8RAMUsageVvp",
+            "mangledName": "$s16UnitySwiftBridge11TrackedDataV8ramUsageAA8RAMUsageVvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RAMUsage",
+                    "printedName": "UnitySwiftBridge.RAMUsage",
+                    "usr": "s:16UnitySwiftBridge8RAMUsageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV8ramUsageAA8RAMUsageVvg",
+                "mangledName": "$s16UnitySwiftBridge11TrackedDataV8ramUsageAA8RAMUsageVvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RAMUsage",
+                    "printedName": "UnitySwiftBridge.RAMUsage",
+                    "usr": "s:16UnitySwiftBridge8RAMUsageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV8ramUsageAA8RAMUsageVvs",
+                "mangledName": "$s16UnitySwiftBridge11TrackedDataV8ramUsageAA8RAMUsageVvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV8ramUsageAA8RAMUsageVvM",
+                "mangledName": "$s16UnitySwiftBridge11TrackedDataV8ramUsageAA8RAMUsageVvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UnitySwiftBridge11TrackedDataV9timestampSSvp",
+            "mangledName": "$s16UnitySwiftBridge11TrackedDataV9timestampSSvp",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV9timestampSSvg",
+                "mangledName": "$s16UnitySwiftBridge11TrackedDataV9timestampSSvg",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV9timestampSSvs",
+                "mangledName": "$s16UnitySwiftBridge11TrackedDataV9timestampSSvs",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV9timestampSSvM",
+                "mangledName": "$s16UnitySwiftBridge11TrackedDataV9timestampSSvM",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cpuUsage:gpuUsage:ramUsage:timestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TrackedData",
+                "printedName": "UnitySwiftBridge.TrackedData",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CPUUsage",
+                "printedName": "UnitySwiftBridge.CPUUsage",
+                "usr": "s:16UnitySwiftBridge8CPUUsageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GPUUsage",
+                "printedName": "UnitySwiftBridge.GPUUsage",
+                "usr": "s:16UnitySwiftBridge8GPUUsageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RAMUsage",
+                "printedName": "UnitySwiftBridge.RAMUsage",
+                "usr": "s:16UnitySwiftBridge8RAMUsageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UnitySwiftBridge11TrackedDataV8cpuUsage03gpuG003ramG09timestampAcA8CPUUsageV_AA8GPUUsageVAA8RAMUsageVSStcfc",
+            "mangledName": "$s16UnitySwiftBridge11TrackedDataV8cpuUsage03gpuG003ramG09timestampAcA8CPUUsageV_AA8GPUUsageVAA8RAMUsageVSStcfc",
+            "moduleName": "UnitySwiftBridge",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TrackedData",
+                "printedName": "UnitySwiftBridge.TrackedData",
+                "usr": "s:16UnitySwiftBridge11TrackedDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UnitySwiftBridge11TrackedDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16UnitySwiftBridge11TrackedDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "UnitySwiftBridge",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge11TrackedDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16UnitySwiftBridge11TrackedDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "UnitySwiftBridge",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16UnitySwiftBridge11TrackedDataV",
+        "mangledName": "$s16UnitySwiftBridge11TrackedDataV",
+        "moduleName": "UnitySwiftBridge",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "startTracking",
+        "printedName": "startTracking()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)startTracking",
+        "mangledName": "$s16UnitySwiftBridge13startTrackingyyF",
+        "moduleName": "UnitySwiftBridge",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "stopTracking",
+        "printedName": "stopTracking()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)stopTracking",
+        "mangledName": "$s16UnitySwiftBridge12stopTrackingSpys4Int8VGyF",
+        "moduleName": "UnitySwiftBridge",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnitySwiftBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Utils",
+        "printedName": "Utils",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "UnitType",
+            "printedName": "UnitType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "Byte",
+                "printedName": "Byte",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UnitySwiftBridge.Utils.UnitType.Type) -> UnitySwiftBridge.Utils.UnitType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnitType",
+                        "printedName": "UnitySwiftBridge.Utils.UnitType",
+                        "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UnitySwiftBridge.Utils.UnitType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnitType",
+                            "printedName": "UnitySwiftBridge.Utils.UnitType",
+                            "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO4ByteyA2EmF",
+                "mangledName": "$s16UnitySwiftBridge5UtilsC8UnitTypeO4ByteyA2EmF",
+                "moduleName": "UnitySwiftBridge",
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "KB",
+                "printedName": "KB",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UnitySwiftBridge.Utils.UnitType.Type) -> UnitySwiftBridge.Utils.UnitType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnitType",
+                        "printedName": "UnitySwiftBridge.Utils.UnitType",
+                        "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UnitySwiftBridge.Utils.UnitType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnitType",
+                            "printedName": "UnitySwiftBridge.Utils.UnitType",
+                            "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO2KByA2EmF",
+                "mangledName": "$s16UnitySwiftBridge5UtilsC8UnitTypeO2KByA2EmF",
+                "moduleName": "UnitySwiftBridge",
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "MB",
+                "printedName": "MB",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UnitySwiftBridge.Utils.UnitType.Type) -> UnitySwiftBridge.Utils.UnitType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnitType",
+                        "printedName": "UnitySwiftBridge.Utils.UnitType",
+                        "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UnitySwiftBridge.Utils.UnitType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnitType",
+                            "printedName": "UnitySwiftBridge.Utils.UnitType",
+                            "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO2MByA2EmF",
+                "mangledName": "$s16UnitySwiftBridge5UtilsC8UnitTypeO2MByA2EmF",
+                "moduleName": "UnitySwiftBridge",
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Var",
+                "name": "GB",
+                "printedName": "GB",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UnitySwiftBridge.Utils.UnitType.Type) -> UnitySwiftBridge.Utils.UnitType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnitType",
+                        "printedName": "UnitySwiftBridge.Utils.UnitType",
+                        "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UnitySwiftBridge.Utils.UnitType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnitType",
+                            "printedName": "UnitySwiftBridge.Utils.UnitType",
+                            "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO2GByA2EmF",
+                "mangledName": "$s16UnitySwiftBridge5UtilsC8UnitTypeO2GByA2EmF",
+                "moduleName": "UnitySwiftBridge",
+                "fixedbinaryorder": 3
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnitType",
+                    "printedName": "UnitySwiftBridge.Utils.UnitType",
+                    "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnitType",
+                    "printedName": "UnitySwiftBridge.Utils.UnitType",
+                    "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s16UnitySwiftBridge5UtilsC8UnitTypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "UnitySwiftBridge",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO9hashValueSivp",
+                "mangledName": "$s16UnitySwiftBridge5UtilsC8UnitTypeO9hashValueSivp",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO9hashValueSivg",
+                    "mangledName": "$s16UnitySwiftBridge5UtilsC8UnitTypeO9hashValueSivg",
+                    "moduleName": "UnitySwiftBridge",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s16UnitySwiftBridge5UtilsC8UnitTypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "UnitySwiftBridge",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO",
+            "mangledName": "$s16UnitySwiftBridge5UtilsC8UnitTypeO",
+            "moduleName": "UnitySwiftBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "convertStringToCSString",
+            "printedName": "convertStringToCSString(text:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutablePointer",
+                "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:Sp"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge5UtilsC23convertStringToCSString4textSpys4Int8VGSS_tFZ",
+            "mangledName": "$s16UnitySwiftBridge5UtilsC23convertStringToCSString4textSpys4Int8VGSS_tFZ",
+            "moduleName": "UnitySwiftBridge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertDictionaryToJsonString",
+            "printedName": "convertDictionaryToJsonString(dictionary:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge5UtilsC29convertDictionaryToJsonString10dictionarySSSDySSypG_tFZ",
+            "mangledName": "$s16UnitySwiftBridge5UtilsC29convertDictionaryToJsonString10dictionarySSSDySSypG_tFZ",
+            "moduleName": "UnitySwiftBridge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertByte",
+            "printedName": "convertByte(value:target:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnitType",
+                "printedName": "UnitySwiftBridge.Utils.UnitType",
+                "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge5UtilsC11convertByte5value6targetS2d_AC8UnitTypeOtFZ",
+            "mangledName": "$s16UnitySwiftBridge5UtilsC11convertByte5value6targetS2d_AC8UnitTypeOtFZ",
+            "moduleName": "UnitySwiftBridge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertByte",
+            "printedName": "convertByte(value:target:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnitType",
+                "printedName": "UnitySwiftBridge.Utils.UnitType",
+                "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge5UtilsC11convertByte5value6targets6UInt64VAH_AC8UnitTypeOtFZ",
+            "mangledName": "$s16UnitySwiftBridge5UtilsC11convertByte5value6targets6UInt64VAH_AC8UnitTypeOtFZ",
+            "moduleName": "UnitySwiftBridge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertByte",
+            "printedName": "convertByte(value:target:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnitType",
+                "printedName": "UnitySwiftBridge.Utils.UnitType",
+                "usr": "s:16UnitySwiftBridge5UtilsC8UnitTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UnitySwiftBridge5UtilsC11convertByte5value6targetS2i_AC8UnitTypeOtFZ",
+            "mangledName": "$s16UnitySwiftBridge5UtilsC11convertByte5value6targetS2i_AC8UnitTypeOtFZ",
+            "moduleName": "UnitySwiftBridge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Utils",
+                "printedName": "UnitySwiftBridge.Utils",
+                "usr": "s:16UnitySwiftBridge5UtilsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UnitySwiftBridge5UtilsCACycfc",
+            "mangledName": "$s16UnitySwiftBridge5UtilsCACycfc",
+            "moduleName": "UnitySwiftBridge",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16UnitySwiftBridge5UtilsC",
+        "mangledName": "$s16UnitySwiftBridge5UtilsC",
+        "moduleName": "UnitySwiftBridge",
+        "isOpen": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dharmikgorsiya\/Desktop\/IOSSwift\/UnitySwiftBridge\/UnitySwiftBridge\/GetInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1174,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/dharmikgorsiya\/Desktop\/IOSSwift\/UnitySwiftBridge\/UnitySwiftBridge\/GetInfo.swift",
+      "kind": "Array",
+      "offset": 1428,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

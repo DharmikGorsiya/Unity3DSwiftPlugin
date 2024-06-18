@@ -1,0 +1,6 @@
+framework module UnitySwiftBridge {
+  umbrella header "UnitySwiftBridge.h"
+  export *
+
+  module * { export * }
+}
